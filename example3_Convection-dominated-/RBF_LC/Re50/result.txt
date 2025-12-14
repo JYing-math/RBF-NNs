@@ -1,0 +1,64 @@
+JY-Ying:Re50$ python3 -i example4_iteration\=1.py 
+device =  cpu
+Re= 50
+For NN without using RBF, the relative error is 1.021605875585792e-05
+local left point: tensor([0.9000, 0.0000, 0.0000])
+local right point: tensor([1., 1., 1.])
+Uniform distribution for initial guess...
+No. of parameters = 560
+epoch: 99 loss: 1.3547e-02 l2_loss: 6.2128e-01 abs_loss 8.3419e-02 best_epoch 45 best_l2 6.0103e-01
+epoch: 199 loss: 1.3058e-02 l2_loss: 5.8626e-01 abs_loss 8.1430e-02 best_epoch 199 best_l2 5.8626e-01
+epoch: 299 loss: 1.2099e-02 l2_loss: 5.7116e-01 abs_loss 7.9411e-02 best_epoch 298 best_l2 5.7116e-01
+epoch: 399 loss: 1.2099e-02 l2_loss: 4.9607e-01 abs_loss 6.8724e-02 best_epoch 399 best_l2 4.9607e-01
+epoch: 499 loss: 1.2099e-02 l2_loss: 2.2387e-01 abs_loss 3.1587e-02 best_epoch 499 best_l2 2.2387e-01
+epoch: 599 loss: 1.2099e-02 l2_loss: 7.0166e-02 abs_loss 1.1114e-02 best_epoch 591 best_l2 4.9812e-02
+epoch: 699 loss: 1.2099e-02 l2_loss: 4.6048e-02 abs_loss 6.5169e-03 best_epoch 693 best_l2 4.4861e-02
+epoch: 799 loss: 1.2099e-02 l2_loss: 4.0465e-02 abs_loss 5.9084e-03 best_epoch 771 best_l2 4.0143e-02
+epoch: 899 loss: 3.7079e-03 l2_loss: 2.7261e-02 abs_loss 3.4857e-03 best_epoch 898 best_l2 2.7261e-02
+epoch: 999 loss: 3.7079e-03 l2_loss: 1.7574e-02 abs_loss 2.3016e-03 best_epoch 999 best_l2 1.7574e-02
+epoch: 1099 loss: 3.7079e-03 l2_loss: 8.7319e-03 abs_loss 1.2458e-03 best_epoch 1096 best_l2 7.4490e-03
+epoch: 1199 loss: 3.7079e-03 l2_loss: 7.5970e-03 abs_loss 1.3662e-03 best_epoch 1184 best_l2 4.4889e-03
+epoch: 1299 loss: 3.7079e-03 l2_loss: 2.5060e-02 abs_loss 4.8727e-03 best_epoch 1274 best_l2 2.9430e-03
+epoch: 1399 loss: 1.7636e-03 l2_loss: 1.2967e-03 abs_loss 2.2188e-04 best_epoch 1386 best_l2 1.1258e-03
+epoch: 1499 loss: 1.7636e-03 l2_loss: 4.3263e-03 abs_loss 7.1206e-04 best_epoch 1407 best_l2 7.6938e-04
+epoch: 1599 loss: 1.7636e-03 l2_loss: 3.2880e-03 abs_loss 5.0060e-04 best_epoch 1407 best_l2 7.6938e-04
+epoch: 1699 loss: 2.5734e-04 l2_loss: 2.9462e-04 abs_loss 5.5623e-05 best_epoch 1672 best_l2 8.9426e-05
+epoch: 1799 loss: 1.5953e-06 l2_loss: 8.3778e-05 abs_loss 1.5461e-05 best_epoch 1770 best_l2 7.3022e-05
+epoch: 1899 loss: 4.9634e-08 l2_loss: 5.8080e-05 abs_loss 1.0015e-05 best_epoch 1888 best_l2 3.8113e-05
+epoch: 1999 loss: 4.7637e-08 l2_loss: 5.1407e-05 abs_loss 8.5586e-06 best_epoch 1967 best_l2 3.4421e-05
+epoch: 2099 loss: 7.2214e-09 l2_loss: 3.7379e-05 abs_loss 5.6352e-06 best_epoch 2075 best_l2 3.2780e-05
+epoch: 2199 loss: 1.7019e-09 l2_loss: 3.1509e-05 abs_loss 4.2452e-06 best_epoch 2194 best_l2 3.1487e-05
+epoch: 2299 loss: 1.7019e-09 l2_loss: 3.0604e-05 abs_loss 4.0935e-06 best_epoch 2297 best_l2 3.0604e-05
+epoch: 2399 loss: 1.7019e-09 l2_loss: 3.2069e-05 abs_loss 4.5271e-06 best_epoch 2398 best_l2 2.9835e-05
+epoch: 2499 loss: 1.7019e-09 l2_loss: 3.3054e-05 abs_loss 4.8386e-06 best_epoch 2496 best_l2 2.9123e-05
+epoch: 2599 loss: 1.7019e-09 l2_loss: 2.8427e-05 abs_loss 3.8054e-06 best_epoch 2594 best_l2 2.8282e-05
+epoch: 2699 loss: 1.7019e-09 l2_loss: 2.7628e-05 abs_loss 3.6547e-06 best_epoch 2698 best_l2 2.7628e-05
+epoch: 2799 loss: 1.7019e-09 l2_loss: 2.7150e-05 abs_loss 3.5997e-06 best_epoch 2799 best_l2 2.7150e-05
+epoch: 2899 loss: 7.1087e-10 l2_loss: 2.6914e-05 abs_loss 3.5730e-06 best_epoch 2884 best_l2 2.6873e-05
+epoch: 2999 loss: 2.9055e-10 l2_loss: 2.6477e-05 abs_loss 3.5212e-06 best_epoch 2998 best_l2 2.6477e-05
+epoch: 3099 loss: 1.4880e-10 l2_loss: 2.6223e-05 abs_loss 3.4917e-06 best_epoch 3098 best_l2 2.6223e-05
+epoch: 3199 loss: 1.1471e-10 l2_loss: 2.6072e-05 abs_loss 3.4957e-06 best_epoch 3191 best_l2 2.6023e-05
+epoch: 3299 loss: 9.7079e-11 l2_loss: 2.5887e-05 abs_loss 3.4658e-06 best_epoch 3295 best_l2 2.5860e-05
+epoch: 3399 loss: 8.1029e-11 l2_loss: 2.5665e-05 abs_loss 3.4275e-06 best_epoch 3399 best_l2 2.5665e-05
+epoch: 3499 loss: 8.1029e-11 l2_loss: 2.5532e-05 abs_loss 3.4272e-06 best_epoch 3498 best_l2 2.5477e-05
+epoch: 3599 loss: 8.1029e-11 l2_loss: 2.5297e-05 abs_loss 3.3814e-06 best_epoch 3593 best_l2 2.5295e-05
+epoch: 3699 loss: 4.0610e-11 l2_loss: 2.5104e-05 abs_loss 3.3559e-06 best_epoch 3699 best_l2 2.5104e-05
+epoch: 3799 loss: 4.0610e-11 l2_loss: 2.4920e-05 abs_loss 3.3337e-06 best_epoch 3795 best_l2 2.4910e-05
+epoch: 3899 loss: 4.0610e-11 l2_loss: 2.4751e-05 abs_loss 3.3097e-06 best_epoch 3898 best_l2 2.4751e-05
+epoch: 3999 loss: 4.0610e-11 l2_loss: 2.4721e-05 abs_loss 3.3258e-06 best_epoch 3987 best_l2 2.4590e-05
+epoch: 4099 loss: 4.0610e-11 l2_loss: 2.4438e-05 abs_loss 3.2741e-06 best_epoch 4097 best_l2 2.4408e-05
+epoch: 4199 loss: 4.0610e-11 l2_loss: 2.4218e-05 abs_loss 3.2382e-06 best_epoch 4198 best_l2 2.4218e-05
+epoch: 4299 loss: 4.0610e-11 l2_loss: 2.4043e-05 abs_loss 3.2127e-06 best_epoch 4299 best_l2 2.4043e-05
+epoch: 4399 loss: 4.0610e-11 l2_loss: 2.3908e-05 abs_loss 3.2014e-06 best_epoch 4399 best_l2 2.3908e-05
+epoch: 4499 loss: 4.0610e-11 l2_loss: 2.3707e-05 abs_loss 3.1671e-06 best_epoch 4499 best_l2 2.3707e-05
+epoch: 4599 loss: 4.0610e-11 l2_loss: 2.3590e-05 abs_loss 3.1577e-06 best_epoch 4594 best_l2 2.3555e-05
+epoch: 4699 loss: 4.0610e-11 l2_loss: 2.3408e-05 abs_loss 3.1277e-06 best_epoch 4692 best_l2 2.3400e-05
+epoch: 4799 loss: 3.6607e-11 l2_loss: 2.3271e-05 abs_loss 3.1129e-06 best_epoch 4796 best_l2 2.3234e-05
+epoch: 4899 loss: 3.6607e-11 l2_loss: 2.3094e-05 abs_loss 3.0821e-06 best_epoch 4899 best_l2 2.3094e-05
+epoch: 4999 loss: 3.6607e-11 l2_loss: 2.2968e-05 abs_loss 3.0666e-06 best_epoch 4999 best_l2 2.2968e-05
+Step 5000: 
+ training loss: 3.6607e-11
+finished
+total time : 0:04:09.459048
+ok
+For NN, the relative error is 5.455985308330782e-06

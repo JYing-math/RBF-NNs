@@ -1,0 +1,30 @@
+(base) JY-Ying:Re100$ python3 -i example4_iteration\=1.py 
+device =  cpu
+Re= 100
+For NN without using RBF, the relative error is 0.00041301294601835543
+local left point: tensor([0.9000, 0.0000, 0.0000])
+local right point: tensor([1., 1., 1.])
+load initial guess with Re= 50
+No. of parameters = 560
+epoch: 99 loss: 2.9706e-02 l2_loss: 4.8221e-02 abs_loss 7.1548e-03 best_epoch 99 best_l2 4.8221e-02
+epoch: 199 loss: 3.7101e-03 l2_loss: 5.6311e-03 abs_loss 7.2451e-04 best_epoch 199 best_l2 5.6311e-03
+epoch: 299 loss: 2.4528e-05 l2_loss: 4.3637e-03 abs_loss 5.6195e-04 best_epoch 299 best_l2 4.3637e-03
+epoch: 399 loss: 1.5279e-05 l2_loss: 3.0117e-03 abs_loss 3.8210e-04 best_epoch 399 best_l2 3.0117e-03
+epoch: 499 loss: 2.7355e-06 l2_loss: 1.2909e-03 abs_loss 1.6067e-04 best_epoch 499 best_l2 1.2909e-03
+epoch: 599 loss: 2.7355e-06 l2_loss: 7.6503e-04 abs_loss 8.0202e-05 best_epoch 599 best_l2 7.6503e-04
+epoch: 699 loss: 2.7355e-06 l2_loss: 5.3169e-04 abs_loss 4.8081e-05 best_epoch 699 best_l2 5.3169e-04
+epoch: 799 loss: 2.7355e-06 l2_loss: 3.3913e-04 abs_loss 3.1700e-05 best_epoch 798 best_l2 3.3913e-04
+epoch: 899 loss: 2.7355e-06 l2_loss: 1.7986e-04 abs_loss 2.1425e-05 best_epoch 899 best_l2 1.7986e-04
+epoch: 999 loss: 2.7355e-06 l2_loss: 1.6133e-04 abs_loss 2.5578e-05 best_epoch 991 best_l2 1.1555e-04
+epoch: 1099 loss: 6.6486e-07 l2_loss: 7.2904e-05 abs_loss 9.9445e-06 best_epoch 1092 best_l2 5.9363e-05
+epoch: 1199 loss: 1.8882e-08 l2_loss: 3.8080e-05 abs_loss 4.1243e-06 best_epoch 1197 best_l2 3.8080e-05
+epoch: 1299 loss: 1.1370e-09 l2_loss: 3.0909e-05 abs_loss 3.4694e-06 best_epoch 1295 best_l2 3.0795e-05
+epoch: 1399 loss: 1.1370e-09 l2_loss: 2.8197e-05 abs_loss 3.1668e-06 best_epoch 1396 best_l2 2.8157e-05
+epoch: 1499 loss: 5.3450e-10 l2_loss: 2.6888e-05 abs_loss 3.0342e-06 best_epoch 1496 best_l2 2.6888e-05
+epoch: 1599 loss: 3.2428e-10 l2_loss: 2.6176e-05 abs_loss 2.9482e-06 best_epoch 1597 best_l2 2.6120e-05
+Step 1679: 
+ training loss: 8.3296e-11
+finished
+total time : 0:01:29.191290
+ok
+For NN, the relative error is 6.742865237649144e-06

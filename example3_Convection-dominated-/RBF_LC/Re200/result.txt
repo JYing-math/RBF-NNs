@@ -1,0 +1,20 @@
+(base) JY-Ying:Re200_NI$ python3 -i example4_iteration\=1.py 
+device =  cpu
+Re= 200
+For NN without using RBF, the relative error is 0.001630528721702875
+local left point: tensor([0.9000, 0.0000, 0.0000])
+local right point: tensor([1., 1., 1.])
+load initial guess with Re= 150
+No. of parameters = 560
+epoch: 99 loss: 1.3059e-01 l2_loss: 3.4545e-03 abs_loss 4.4573e-04 best_epoch 94 best_l2 3.2250e-03
+epoch: 199 loss: 2.0345e-04 l2_loss: 8.0925e-05 abs_loss 1.0376e-05 best_epoch 197 best_l2 8.0925e-05
+epoch: 299 loss: 2.8673e-06 l2_loss: 6.8864e-05 abs_loss 9.5117e-06 best_epoch 266 best_l2 6.5356e-05
+epoch: 399 loss: 9.2868e-09 l2_loss: 7.1571e-05 abs_loss 7.7878e-06 best_epoch 266 best_l2 6.5356e-05
+epoch: 499 loss: 5.8848e-10 l2_loss: 7.2376e-05 abs_loss 7.6223e-06 best_epoch 266 best_l2 6.5356e-05
+epoch: 599 loss: 1.3925e-10 l2_loss: 7.2947e-05 abs_loss 7.3542e-06 best_epoch 266 best_l2 6.5356e-05
+Step 625: 
+ training loss: 9.4475e-11
+finished
+total time : 0:00:35.509103
+ok
+For NN, the relative error is 1.921906498431767e-05
